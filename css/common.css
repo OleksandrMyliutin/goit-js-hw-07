@@ -12,3 +12,23 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+.container{
+  padding: 100px 156px;
+}
+
+.container ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list{
+  width: calc((100% - 48px) / 3);
+}
